@@ -1,0 +1,118 @@
+/* 
+* ---------------- Reset CSS */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Font-Face */
+@font-face {
+	font-family: "NunitoSans-Regular";
+	src: url(../assets/fonts/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: "NunitoSans-Bold";
+	src: url(../assets/fonts/NunitoSans-Bold.ttf);
+}
+
+body {
+	font-family: "NunitoSans-Regular";
+	min-height: 100vh;
+}
+
+.header .navbar {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 25px 0;
+}
+.navbar .nav-link {
+	color: #fff !important;
+	opacity: 0.7 !important;
+	line-height: 24px;
+}
+.navbar .btn {
+	font-size: 16px;
+	line-height: 21px;
+}
+.navbar .navbar-nav {
+	gap: 40px;
+}
+.hero {
+	padding-top: 100px;
+	min-height: 100vh;
+	background-color: #19191b;
+}
+.hero .title {
+	font-family: "NunitoSans-Bold";
+	font-size: 80px;
+	line-height: 84px;
+}
+.hero .subtitle {
+	line-height: 39px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+	background-color: #5454d4 !important;
+	outline: none;
+	border: none;
+    padding: 16px 27px;
+}
+
+
+
+
+
+
+
+
+.hero .right .img {
+    height: 100%;
+    max-height: 712px;
+
+}
+
+
+.fs-18 {
+	font-size: 18px;
+}
+.fs-21 {
+	font-size: 21px;
+}
+
+.f-light {
+	color: #fff !important;
+	opacity: 0.7 !important;
+}
