@@ -1,5 +1,9 @@
-/* 
-* ---------------- Reset CSS */
+/* Root */
+:root {
+	--bg-primary: #5454d4;
+}
+
+/* Reset CSS */
 *,
 *::before,
 *::after {
@@ -75,10 +79,11 @@ body {
 .hero .title {
 	font-family: "NunitoSans-Bold";
 	font-size: 80px;
+	position: relative;
 	line-height: 84px;
+	z-index: 2;
 }
 .hero .subtitle {
-	line-height: 39px;
 	max-width: 536px;
 }
 
@@ -141,14 +146,64 @@ body {
 	right: -30px;
 }
 
+.video {
+	position: relative;
+	padding-top: 151px;
+}
+.video::after {
+	content: "";
+	position: absolute;
+	width: 467px;
+	height: 508.5px;
+	left: -85px;
+	top: 1000px;
+
+	background: linear-gradient(
+		180deg,
+		rgba(84, 84, 212, 0.21) 0%,
+		rgba(84, 84, 212, 0.0882) 100%
+	);
+	filter: blur(300px);
+	border-radius: 233.5px;
+	transform: rotate(-54.37deg);
+}
+.video .title {
+	font-family: "NunitoSans-Bold";
+	font-size: 60px;
+	line-height: 70px;
+}
+.video .video-container {
+	position: relative;
+	background-image: url(../assets/images/video.png);
+	/* max-height: 670px; */
+	height: 670px;
+	width: 100%;
+}
+.video-container i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 50px;
+	background-color: var(--bg-primary);
+	border-radius: 50%;
+	font-size: 20px;
+	color: #fff;
+	width: 124px;
+	height: 124px;
+}
+
 .fs-18 {
 	font-size: 18px;
 }
 .fs-21 {
 	font-size: 21px;
+	line-height: 39px;
 }
 
 .f-light {
 	color: #fff !important;
 	opacity: 0.7 !important;
+}
+.bg-section {
+	background-color: #19191b;
 }
