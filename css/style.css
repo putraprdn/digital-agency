@@ -192,12 +192,56 @@ body {
 	height: 124px;
 }
 
+.service {
+	padding: 150px 0;
+	position: relative;
+}
+.service .title {
+	font-family: "NunitoSans-Bold";
+	font-size: 60px;
+	line-height: 70px;
+	max-width: 695px;
+}
+.service .arrow {
+	position: absolute;
+	top: 140px;
+	left: 175px;
+}
+.service .plus {
+	position: absolute;
+	top: 240px;
+	right: 110px;
+	transform: rotate(55deg);
+}
+.service .card {
+	background-color: transparent;
+}
+.service .card-title {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 38px;
+}
+.service .plus-bottom {
+	position: absolute;
+	bottom: 65px;
+	left: 100px;
+	transform: rotate(30deg);
+}
+
+.fs-20 {
+	font-size: 20px;
+	line-height: 28%;
+}
 .fs-18 {
 	font-size: 18px;
 }
 .fs-21 {
 	font-size: 21px;
 	line-height: 39px;
+}
+
+.gap-20 {
+	gap: 20px;
 }
 
 .f-light {
