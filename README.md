@@ -17,10 +17,10 @@ _Currently under development_
 -   [ ] Active state
 -   [ ] Responsive
 
-<!-- ### Design
+### Design
 
-![]()
- -->
+![](https://github.com/putraprdn/digital-agency/blob/main/assets/images/Design.png?raw=true)
+
 ### Links
 
 -   Live Site URL: [Via Github](https://putraprdn.github.io/digital-agency/)
