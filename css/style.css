@@ -337,6 +337,20 @@ body {
 	left: 160px;
 }
 
+.footer {
+	padding: 30px 0 50px;
+}
+.footer .img-link {
+	width: fit-content;
+}
+.foote .copyright {
+	font-size: 16px;
+	line-height: 38px;
+}
+.footer ul {
+	margin: 0;
+}
+
 .fs-20 {
 	font-size: 20px;
 	line-height: 28%;
@@ -356,7 +370,4 @@ body {
 .f-light {
 	color: #fff !important;
 	opacity: 0.7 !important;
-}
-.bg-section {
-	background-color: #19191b;
 }
