@@ -303,6 +303,40 @@ body {
 	display: none;
 }
 
+.contact-us {
+	position: relative;
+	display: flex;
+	height: 480px;
+	background-color: rgba(30, 30, 32, 0.5);
+	align-items: center;
+	padding: 60px 0 118px;
+	/* margin-bottom: 100px; */
+	/* pad-bottom: 90px; */
+}
+
+.contact-us .title {
+	font-family: "NunitoSans-Bold";
+	font-size: 60px;
+	line-height: 66px;
+}
+
+.contact-us .btn {
+	max-width: 201px;
+	width: 100%;
+}
+
+.contact-us .plus {
+	position: absolute;
+	top: 60px;
+	right: 100px;
+}
+
+.contact-us .circle {
+	position: absolute;
+	bottom: 95px;
+	left: 160px;
+}
+
 .fs-20 {
 	font-size: 20px;
 	line-height: 28%;
