@@ -13,7 +13,7 @@ The original design is [here.](https://www.figma.com/file/1Kz41oip1LNiInwJE3CuLD
 
 _Currently under development_
 
--   [ ] Main Content
+-   [x] Main Content
 -   [ ] Active state
 -   [ ] Responsive
 
