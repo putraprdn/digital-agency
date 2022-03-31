@@ -50,6 +50,8 @@ select {
 body {
 	font-family: "NunitoSans-Regular";
 	min-height: 100vh;
+	overflow-x: hidden;
+	background-color: #19191b;
 }
 
 .header .navbar {
@@ -112,6 +114,7 @@ body {
 	filter: blur(300px);
 	border-radius: 233.5px;
 	transform: rotate(-54.37deg);
+	z-index: 1;
 }
 
 .hero .right {
@@ -166,6 +169,7 @@ body {
 	filter: blur(300px);
 	border-radius: 233.5px;
 	transform: rotate(-54.37deg);
+	z-index: 2;
 }
 .video .title {
 	font-family: "NunitoSans-Bold";
@@ -215,6 +219,7 @@ body {
 }
 .service .card {
 	background-color: transparent;
+	border: none;
 }
 .service .card-title {
 	font-weight: 600;
@@ -226,6 +231,76 @@ body {
 	bottom: 65px;
 	left: 100px;
 	transform: rotate(30deg);
+}
+
+.portofolio {
+	/* position: relative; */
+	/* overflow: hidden; */
+	padding-bottom: 125px;
+}
+.portofolio::before {
+	content: "";
+	position: absolute;
+	width: 599.58px;
+	height: 652.85px;
+	right: -150px;
+	bottom: -2960px;
+
+	background: linear-gradient(
+		180deg,
+		rgba(84, 84, 212, 0.2) 0%,
+		rgba(84, 84, 212, 0.084) 100%
+	);
+	filter: blur(300px);
+	border-radius: 233.5px;
+	transform: matrix(-0.58, -0.81, -0.81, 0.58, 0, 0);
+	z-index: 1;
+}
+.portofolio .container {
+	position: relative;
+}
+.portofolio .title {
+	font-family: "NunitoSans-Bold";
+	font-size: 58px;
+	line-height: 79px;
+	margin-bottom: 70px;
+}
+.portofolio .circle {
+	position: absolute;
+	top: 70px;
+	right: 0;
+}
+.portofolio .zig {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+}
+
+.portofolio .swiper {
+	padding-bottom: 50px;
+	overflow-x: hidden;
+}
+.portofolio .swiper-wrapper {
+	justify-content: space-between;
+}
+.portofolio .swiper-wrapper .swiper-slide {
+	max-width: 350px;
+}
+.portofolio .swiper-wrapper .swiper-slide:nth-child(2),
+.portofolio .swiper-wrapper .swiper-slide:nth-child(4) {
+	margin-top: 58px;
+}
+.portofolio .swiper-wrapper .swiper-slide:nth-child(3) {
+	margin-top: 110px;
+}
+.portofolio .swiper-pagination-bullet-active {
+	width: 15px;
+	border-radius: 25px;
+}
+
+.portofolio .swiper-button-prev,
+.portofolio .swiper-button-next {
+	display: none;
 }
 
 .fs-20 {

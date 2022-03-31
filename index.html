@@ -10,6 +10,8 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- FontAwasome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Swiper CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 
     <title>Digital Agency</title>
@@ -84,7 +86,7 @@
         <!-- End Hero -->
 
         <!-- Video -->
-        <section class="video bg-section">
+        <section class="video">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-md-6">
@@ -108,7 +110,7 @@
         <!-- End Video -->
 
         <!-- Service -->
-        <section class="service bg-section">
+        <section class="service">
             <div class="container">
                 <h3 class="title text-white mx-auto text-center">
                     The Service We Provide For You
@@ -118,7 +120,7 @@
 
                 <!-- List -->
                 <div class="row mt-5">
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body text-center d-flex flex-column gap-20">
                                 <img class="mx-auto" src="./assets/images/development.png" alt="development">
@@ -129,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body text-center d-flex flex-column gap-20">
                                 <img class="mx-auto" src="./assets/images/ui-ux.png" alt="ui-ux">
@@ -141,7 +143,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body text-center d-flex flex-column gap-20">
                                 <img class="mx-auto" src="./assets/images/designer.png" alt="designer">
@@ -155,7 +157,7 @@
                 </div>
 
                 <div class="row mt-5">
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body text-center d-flex flex-column gap-20">
                                 <img class="mx-auto" src="./assets/images/motion.png" alt="motion">
@@ -166,7 +168,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body text-center d-flex flex-column gap-20">
                                 <img class="mx-auto" src="./assets/images/photo.png" alt="Photography">
@@ -177,7 +179,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body text-center d-flex flex-column gap-20">
                                 <img class="mx-auto" src="./assets/images/videography.png" alt="videography">
@@ -195,6 +197,45 @@
         </section>
         <!-- End Service -->
 
+        <!-- Portofolio -->
+        <section class="portofolio">
+            <div class="container">
+                <h2 class="title text-white">Our Awesome Portofolio</h2>
+                <img class="circle" src="./assets/images/circle.png" alt="circle">
+                <img class="zig" src="./assets/images/zig.png" alt="zig">
+
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="./assets/images/card-1.png" alt="card-1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/card-2.png" alt="card-2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/card-3.png" alt="card-3">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/card-1.png" alt="card-1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/card-2.png" alt="card-2">
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Portofolio -->
 
     </main>
     <!-- End Main -->
